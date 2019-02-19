@@ -5,7 +5,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Python: Hello Debugger",
+      "type": "chrome",
+      "request": "launch",
+      "name": "ts-react: Hello Debugger",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "python: Hello Debugger",
       "type": "python",
       "request": "launch",
       "cwd": "${workspaceFolder}/python",
@@ -16,12 +23,12 @@
       "console": "integratedTerminal"
     },
     {
-      "name": "TypeScript: Hello Debugger",
+      "name": "ts-node: Hello Debugger",
       "type": "node",
       "request": "launch",
-      "cwd": "${workspaceFolder}/typescript",
+      "cwd": "${workspaceFolder}/ts-node",
       "args": [
-        "${workspaceFolder}/typescript/src/hello-debugger.ts",
+        "${workspaceFolder}/ts-node/src/hello-debugger.ts",
         "--name",
         "World",
       ],
@@ -29,8 +36,6 @@
         "-r",
         "ts-node/register"
       ],
-      // "sourceMaps": true,
-      // "protocol": "inspector"
-    }
+    },
   ]
 }

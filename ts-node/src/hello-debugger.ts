@@ -6,5 +6,5 @@ const argv = yargs.alias("n", "name").nargs('n', 1).require('name', "Name Requir
 
 (() => {
    const name = argv.name;
-   console.log(`Hello, ${name}`);
+   console.log(`Hello, ${name}`); // <------------- put a breakpoint here!
 })();
