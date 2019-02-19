@@ -1,0 +1,9 @@
+{
+   "python.formatting.provider": "black",
+   "python.linting.pylintEnabled": true,
+   "python.linting.enabled": true,
+   "python.pythonPath": "/Users/catay/.virtualenvs/myenv/bin/python",
+   "[python]": {
+      "editor.tabSize": 4
+   },
+}

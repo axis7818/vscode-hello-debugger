@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ArgumentParser	../hello_debugger.py	/^from argparse import ArgumentParser$/;"	kind:namespace	line:3
+__init__.py	../hello/__init__.py	1;"	kind:file	line:1
+args	../hello_debugger.py	/^    args = parse_args()$/;"	kind:variable	line:18
+hello_debugger.py	../hello_debugger.py	1;"	kind:file	line:1
+parse_args	../hello_debugger.py	/^def parse_args():$/;"	kind:function	line:7
+say_hi	../hello/__init__.py	/^def say_hi(name):$/;"	kind:function	line:1
+say_hi	../hello_debugger.py	/^from hello import say_hi$/;"	kind:namespace	line:4
