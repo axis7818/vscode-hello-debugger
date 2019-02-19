@@ -1,0 +1,18 @@
+{
+  "name": "vscode-hello-debugger",
+  "version": "1.0.0",
+  "description": "practicing vscode debugging",
+  "scripts": {
+    "start": "ts-node src/hello-debugger.ts"
+  },
+  "author": "Cameron Taylor <axis7818@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^11.9.4",
+    "@types/yargs": "^12.0.9",
+    "ts-node": "^8.0.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.3.3",
+    "yargs": "^13.2.1"
+  }
+}
