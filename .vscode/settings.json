@@ -3,8 +3,9 @@
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": true,
   "python.pythonPath": "/Users/catay/.virtualenvs/myenv/bin/python",
+  "python.envFile": "${workspaceFolder}/.env",
   "[python]": {
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
   },
   "[json]": {
     "editor.tabSize": 2
@@ -12,4 +13,5 @@
   "[jsonc]": {
     "editor.tabSize": 2
   },
+  "java.configuration.updateBuildConfiguration": "automatic",
 }

@@ -9,7 +9,7 @@ export interface Props {
 class App extends Component<Props> {
 
    render() {
-      const name = this.props.name; // <-------- put a breakpoint here!
+      const name = this.props.name;
       return (
          <div className="App">
             <p>Hello {name}</p>
