@@ -6,6 +6,7 @@
     "msjsdiag.debugger-for-chrome",
     "eg2.vscode-npm-script",
     "ms-python.python",
+    "redhat.java",
   ],
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
   "unwantedRecommendations": []
