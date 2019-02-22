@@ -15,6 +15,7 @@ Debug configurations for these projects are defined inside `.vscode/launch.json`
   * [Client Side](./ts-react/README.md) (shown with a simple `create-react-app` project)
 * [Python](./python/README.md)
 * [Java](./java/README.md)
+* [C# DotNetCore](./csharp-dotnetcore/README.md)
 
 Each project has a debugging configuration specified in `.vscode/launch.json` that can be run
 from the debugger panel. Simply set a breakpoint inside a project and run the debug configuration.

@@ -5,6 +5,29 @@
   "version": "0.2.0",
   "configurations": [
     //
+    // install the C# extension for vscode
+    // https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp
+    //
+    // For this debug configuration, we need to first make sure the latest
+    // version of the project has been built using the `preLaunchTask` option
+    // and configuring the provided build task in `.vscode/tasks.json`
+    {
+      "name": "csharp-dotnetcore",
+      "type": "coreclr",
+      "request": "launch",
+      // "preLaunchTask": "build",
+      "program": "${workspaceFolder}/csharp-dotnetcore/bin/Debug/netcoreapp2.1/csharp-dotnetcore.dll",
+      "args": [
+        "--name",
+        "World",
+      ],
+      "preLaunchTask": "build: csharp-dotnetcore",
+      "cwd": "${workspaceFolder}/csharp-dotnetcore",
+      "stopAtEntry": false,
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+    },
+    //
     // install the java extension for vscode
     // https://marketplace.visualstudio.com/items?itemName=redhat.java
     {
